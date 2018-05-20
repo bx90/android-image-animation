@@ -1,9 +1,9 @@
 package com.example.boxiongsun.fadingimages;
 
-        import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
-        import android.view.View;
-        import android.widget.ImageView;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void rotate(ImageView sLarge) {
-       sLarge.animate().rotation(180).scaleX(0.5f).scaleY(0.5f);
+        sLarge.animate().rotation(180).scaleX(0.5f).scaleY(0.5f);
     }
 
     private void moveHorizontally(ImageView sLarge) {
@@ -37,7 +37,4 @@ public class MainActivity extends AppCompatActivity {
         // Duration is using mil-sec
         sLarge.animate().alpha(alpha).setDuration(duration);
     }
-
-
-
 }
